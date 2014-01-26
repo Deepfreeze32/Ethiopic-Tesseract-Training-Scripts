@@ -2,7 +2,7 @@
 #Train tesseract!
 
 usage() {
-        echo "Usage: $0 <Number of files to train>
+        echo "Usage: $0 <Number of files to train>"
         exit 1
 }
 

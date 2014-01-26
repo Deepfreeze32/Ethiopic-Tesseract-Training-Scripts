@@ -3,8 +3,19 @@ Tesseract Trainer Program
 
 Introduction
 ------------
-
 This program and set of bash scripts was designed as a supplement to research done by Travis Cramer and Elizabeth Carlisle, supervised by James Prather
+
+Dependencies
+------------
+You must have ImageMagick installed and on your path, as well as have all Tesseract executable files on your path. To automate the splitting procedure, I have used PDFtk, which is a free installation from http://www.pdflabs.com/tools/pdftk-server/
+
+Make sure it all of these are on the path and executing before running the scripts!
+
+Usage
+-----
+To run on some PDF, run run.sh with the PDF file as a parameter. 
+
+EX: './run.sh tesseract_test.pdf'
 
 Files
 -----

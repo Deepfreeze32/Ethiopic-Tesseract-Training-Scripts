@@ -9,5 +9,5 @@ usage() {
 
 for ((i=0;i<$1;i++))
 do
-	convert -density 300 -depth 4 gez.geez.exp$i.pdf gez.geez.exp$i.tif
+	convert -density 300 -depth 8 -background white -flatten +matte gez.geez.exp$i.pdf gez.geez.exp$i.tiff
 done
